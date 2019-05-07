@@ -7,6 +7,6 @@ conda activate pytorch_env
 #install pytorch
 conda install pytorch-cpu torchvision-cpu -c pytorch
 
-
+conda install ipykernel
 #add the environment in jupyter
 python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
