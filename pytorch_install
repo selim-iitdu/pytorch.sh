@@ -1,1 +1,8 @@
-#sfs
+#create new environment
+conda create -n pytorch_env python=3.6
+
+#activate environment
+conda activate pytorch_env
+
+#install pytorch
+conda install pytorch-cpu torchvision-cpu -c pytorch
