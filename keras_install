@@ -6,5 +6,6 @@ pip install --upgrade tensorflow
 
 pip install --upgrade keras
 
-
+#add the environment in jupyter
+python -m ipykernel install --user --name keras_env --display-name "Python (keras)"
 
