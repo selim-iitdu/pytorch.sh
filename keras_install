@@ -1,0 +1,10 @@
+conda create --name keras_env python
+
+activate keras_env
+
+pip install --upgrade tensorflow
+
+pip install --upgrade keras
+
+
+
